@@ -12,8 +12,9 @@ main{
   font-family:raleway;
 }
 
-.link{
-text-decoration: none;
+a{
+text-decoration:none;
+display:inline-block;
 }
 
 .is_inner{
@@ -37,17 +38,16 @@ header{
 }
 
 .header-contact{
+  float: right;
   background-color: #74cfae;
   color:#fff;
   font-size:12px;
-  float:right;
   margin:10px 0;
   padding:14px 12px;
   transition: .3s;
 }
 
 .header-contact:hover{
-  cursor: pointer;
   color:#333;
 }
 
@@ -55,11 +55,14 @@ header{
   background-color: #f2f2f2;
 }
 
-.title-content{
+.title_inner{
+  color: #74cfae;
   font-size:90px;
   font-weight:700;
+}
+
+.title-content{
   text-align: center;
-  color: #74cfae;
   padding: 250px 0;
 }
 
@@ -74,7 +77,7 @@ header{
  background-color: #74cfae;
 }
 
-.top-content{
+.top_inner{
   display: flex;
   justify-content: space-around;
   padding-top:50px;
@@ -83,6 +86,11 @@ header{
 .iphone{
   width: 300%;
 }
+
+img{
+  vertical-align: bottom;
+ }
+
 .top-content__text{
   text-align: center;
   font-size:24px;
@@ -99,7 +107,7 @@ header{
   background-color: #f2f2f2;
 }
 
-.work-content{
+.work_inner{
   padding:60px 0 70px;
 }
 
@@ -132,19 +140,20 @@ header{
 }
 
 .work-content__icons:hover{
-  cursor : pointer;
   opacity: 1;
 }
 
 /*文字を囲むタグ*/
 .work-summary{
   display:flex;
-  justify-content: center;
+  align-items: center;
   margin-top:90px;
 }
 
 .work-summary__text{
-  margin-right:90px;
+  margin:0 90px 0;
+  width: 60%;
+  text-align: center;
 }
 
 .work-summary__email{
@@ -152,7 +161,7 @@ header{
   background-color:#74cfae;
   font-size:12px; 
   padding:14px 12px;
-  transition: .3s;
+  transition: .3s; 
 }
 
 .work-summary__email:hover{
@@ -161,10 +170,10 @@ header{
 }
 
 .skills{
-  background-color:#333
+  background-color:#4e4e4e;
 }
 
-.skills-content{
+.skills_inner{
   font-size:0;
   padding:70px 0 100px;
   text-align: center;
@@ -194,14 +203,14 @@ header{
 .sns{
   background-color: #f2f2f2;
 }
-.sns-contents{
+.sns_inner{
   display:flex;
   justify-content: center;
   padding:200px 0;
-  color: #74cfae;
 }
 
 .sns-content_icons{
+  color: #74cfae;
   width: 185px;
   padding:10px 0;
   text-align: center;
@@ -209,8 +218,8 @@ header{
 }
 
 .sns-content_icons:hover{
+  color: #74cfae;
   width:185px;
-  cursor: pointer;
   background-color:#fff;
 }
 
