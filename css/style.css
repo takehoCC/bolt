@@ -6,15 +6,15 @@ body{
 
 main{
   margin-top:94px;
-  }
-
-.is-raleway{
-  font-family:raleway;
 }
 
 a{
 text-decoration:none;
 display:inline-block;
+}
+
+.is-raleway{
+  font-family:raleway;
 }
 
 .is_inner{
@@ -32,13 +32,16 @@ header{
   padding: 15px 0;
 }
 
+.header_inner{
+ display:flex;
+ justify-content: space-between;
+}
+
 .header-bolt{
-  float:left;
   color:gray;
 }
 
 .header-contact{
-  float: right;
   background-color: #74cfae;
   color:#fff;
   font-size:12px;
@@ -89,7 +92,7 @@ header{
 
 img{
   vertical-align: bottom;
- }
+}
 
 .top-content__text{
   text-align: center;
@@ -131,6 +134,7 @@ img{
   margin-top:80px;
   margin-right:100px;
 }
+
 .work-content__icons:nth-child(-n+3){
   margin-top:0px;
 }
@@ -232,3 +236,4 @@ footer{
 .footer_text{
   color:#fff;
   text-align:right;
+}
