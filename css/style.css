@@ -22,6 +22,10 @@ a{
   display:inline-block;
 }
 
+img{
+  vertical-align:bottom;
+}
+
 .is-raleway{
   font-family:raleway;
 }
@@ -160,284 +164,276 @@ footer{
 
 /* 1200px〜：PC
 ------------------------------ */
-  @media screen and (min-width:1200px) {
-    .is_inner{
-    margin: 0 auto;
-    width:1100px;
-    }
-
-    .top_inner{
-      display: flex;
-      justify-content: space-around;
-      padding-top:50px;
-    }
-
-    .iphone{
-      width: 300%;
-    }
-
-    img{
-      vertical-align: bottom;
-    }
-
-    .top-content__text{
-      text-align: center;
-      font-size:24px;
-      color:#fff;
-      width: 700%;
-    }
-
-    .top-content__summary{
-      font-size: 20px;
-      margin-top:35px;
-    }
-
-    .work-thumbnail{
-      display: flex;
-      justify-content:center;
-      flex-wrap:wrap;
-    }
-
-    .work-content__icons{
-      font-size:0;
-      transition: .3s;
-      opacity: .7;
-      margin-top:80px;
-      margin-right:100px;
-    }
-
-    .work-content__icons:nth-child(-n+3){
-      margin-top:0px;
-    }
-
-    .work-content__icons:nth-of-type(3n){
-      margin-right:0px;
-    }
-
-    /*文字を囲むタグ*/
-    .work-summary{
-      margin-top:90px;
-      display:flex;
-      align-items: center;
-    }
-
-    .work-summary__text{
-      margin:0 90px 0;
-      width: 60%;
-      text-align: center;
-    }
-
-    .skills-items{
-      display: inline-block;
-      margin-left:180px;
-    }
-
-    .skills-items:first-child{
-      margin-left:0;
-    }
-
-    .sns_inner{
-      display:flex;
-      justify-content: center;
-      padding:200px 0;
-    }
-
-    .sns-content_icons{
-      color: #74cfae;
-      width: 185px;
-      padding:10px 0;
-      text-align: center;
-      transition: .3s;
-    }
-
-    .sns-content_icons:hover{
-      color: #74cfae;
-      width:185px;
-      background-color:#fff;
-    }
+@media screen and (min-width:1200px) {
+  .is_inner{
+  margin: 0 auto;
+  width:1100px;
   }
-/* 767px〜1199px：TAB
------------------------------- */
-  @media screen and (min-width:767px) and (max-width:1199px) {
 
-    .is_inner{
-      margin: 0 auto;
-      width:97%;
-    }
-    
-    .top_inner{
-      padding:50px 0 25px;
-      text-align: center;
-    }
-    
-    .top-content__text{
-      text-align: center;
-      font-size:24px;
-      color:#fff;
-      margin-top: 20px;
-    }
-    
-    .top-content__summary{
-      font-size: 20px;
-      margin:35px 50px ;
-    }
-    
-    .work-thumbnail{
-      text-align:center;
-    }
-    
-    .work-content__icons{
-      font-size:0;
-      transition: .3s;
-      opacity: .7;
-    }
-    
-    .work-content__icons:nth-child(4){
-      margin-top:80px;
-    }
-    
-    /*文字を囲むタグ*/
-    .work-summary{
-      margin-top:80px;
-      text-align: center;
-    }
-    
-    .work-summary__text{
-      margin:0 auto;
-      width: 50%;
-      padding-bottom:40px;
-    }
+  .top_inner{
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+  }
 
-    .skills-items{
-      margin-top:88px;
-    }
-    
-    .skills-items:first-child{
-      margin-top:0;
-    }
-    
-    .sns_inner{
-      display:flex;
-      justify-content: center;
-      padding:200px 0;
-    }
-    
-    .sns-content_icons{
-      color: #74cfae;
-      width: 185px;
-      padding:10px 0;
-      text-align: center;
-      transition: .3s;
-    }
-    
-    .sns-content_icons:hover{
-      color: #74cfae;
-      width:185px;
-      background-color:#fff;
-    }
+  .iphone{
+    width: 300%;
+  }
+
+  .top-content__text{
+    text-align: center;
+    font-size:24px;
+    color:#fff;
+    width: 700%;
+  }
+
+  .top-content__summary{
+    font-size: 20px;
+    margin-top:35px;
+  }
+
+  .work-thumbnail{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .work-content__icons{
+    font-size:0;
+    transition: .3s;
+    opacity: .7;
+    margin-top:80px;
+    margin-right:100px;
   }
   
-  /* 〜766px：SP
-  ------------------------------ */
-  @media screen and (max-width:766px) {
-
-    .is_inner{
-      margin: 0 auto;
-      width:97%;
-    }
-
-    .header-contact{
-      display: none;
-    }
-
-    .hamburger{
-      display:block;
-      padding: 10px;
-      border:1px solid #ddd;
-      border-radius:4px;
-    }
-
-    .hamburger_line{
-      margin-top:10px;
-      width: 35px;
-      height: 1px;
-      background-color: #ddd;
-    }
-    
-    .title_inner{
-      color: #74cfae;
-      font-size:80px;
-      font-weight:700;
-      padding: 160px 0 130px;
-    }
-    
-    .top_inner{
-      padding:50px 0 25px;
-      text-align: center;
-    }
-    
-    .top-content__text{
-      text-align: center;
-      font-size:24px;
-      color:#fff;
-      margin-top: 20px;
-    }
-    
-    .top-content__summary{
-      font-size: 20px;
-      margin:35px 50px ;
-    }
-    
-    .work-thumbnail{
-      text-align:center;
-    }
-    
-    .work-content__icons{
-      font-size:0;
-      transition: .3s;
-      opacity: .7;
-    }
-    
-    .work-content__icons:nth-child(4){
-      margin-top:80px;
-    }
-    
-    .work-content__icons:hover{
-      opacity: 1;
-    }
-    
-    /*文字を囲むタグ*/
-    .work-summary{
-      margin-top:80px;
-      text-align: center;
-    }
-   
-    .work-summary__text{
-      padding-bottom:40px;
-    }
-
-    .skills-items{
-      margin-top:88px;
-    }
-    
-    .skills-items:first-child{
-      margin-top:0;
-    }
-    
-    .sns_inner{
-      text-align: center;
-      padding:50px 10px;
-    }
-    
-    .sns-content_icons{
-      color: #74cfae;
-      width: 80%;
-      padding:10px;
-      transition: .3s;
-    }
-    
-    .sns-content_icons:hover{
-      width: 80%;
-      background-color:#fff;
-    }
+  .work-content__icons:nth-child(-n+3){
+    margin-top:0px;
   }
+
+  .work-content__icons:nth-of-type(3n){
+    margin-right:0px;
+  }
+
+  /*文字を囲むタグ*/
+  .work-summary{
+    margin-top:90px;
+    display:flex;
+    align-items: center;
+  }
+
+  .work-summary__text{
+    margin:0 90px 0;
+    width: 60%;
+    text-align: center;
+  }
+
+  .skills-items{
+    display: inline-block;
+    margin-left:180px;
+  }
+
+  .skills-items:first-child{
+    margin-left:0;
+  }
+
+  .sns_inner{
+    display:flex;
+    justify-content: center;
+    padding:200px 0;
+  }
+
+  .sns-content_icons{
+    color: #74cfae;
+    width: 185px;
+    padding:10px 0;
+    text-align: center;
+    transition: .3s;
+  }
+
+  .sns-content_icons:hover{
+    color: #74cfae;
+    width:185px;
+    background-color:#fff;
+  }
+}
+/* 767px〜1199px：TAB
+------------------------------ */
+@media screen and (min-width:767px) and (max-width:1199px) {
+
+  .is_inner{
+    margin: 0 auto;
+    width:97%;
+  }
+  
+  .top_inner{
+    padding:50px 0 25px;
+    text-align: center;
+  }
+  
+  .top-content__text{
+    text-align: center;
+    font-size:24px;
+    color:#fff;
+    margin-top: 20px;
+  }
+  
+  .top-content__summary{
+    font-size: 20px;
+    margin:35px 50px ;
+  }
+  
+  .work-thumbnail{
+    text-align:center;
+  }
+  
+  .work-content__icons{
+    font-size:0;
+    transition: .3s;
+    opacity: .7;
+  }
+  
+  .work-content__icons:nth-child(3n+4){
+    margin-top:80px;
+  }
+  
+  /*文字を囲むタグ*/
+  .work-summary{
+    margin-top:80px;
+    text-align: center;
+  }
+  
+  .work-summary__text{
+    margin:0 auto 40px;
+    width: 100%;
+  }
+
+  .skills-items{
+    margin-top:88px;
+  }
+  
+  .skills-items:first-child{
+    margin-top:0;
+  }
+  
+  .sns_inner{
+    display:flex;
+    justify-content: center;
+    padding:200px 0;
+  }
+  
+  .sns-content_icons{
+    color: #74cfae;
+    width: 185px;
+    padding:10px 0;
+    text-align: center;
+    transition: .3s;
+  }
+  
+  .sns-content_icons:hover{
+    color: #74cfae;
+    width:185px;
+    background-color:#fff;
+  }
+}
+
+/* 〜766px：SP
+------------------------------ */
+@media screen and (max-width:766px) {
+
+  .is_inner{
+    margin: 0 auto;
+    width:97%;
+  }
+
+  .header-contact{
+    display: none;
+  }
+
+  .hamburger{
+    display:block;
+    padding: 10px;
+    border:1px solid #ddd;
+    border-radius:4px;
+  }
+
+  .hamburger_line{
+    margin-top:10px;
+    width: 35px;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .title_inner{
+    color: #74cfae;
+    font-size:80px;
+    font-weight:700;
+    padding: 160px 0 130px;
+  }
+  
+  .top_inner{
+    padding:50px 0 25px;
+    text-align: center;
+  }
+  
+  .top-content__text{
+    text-align: center;
+    font-size:24px;
+    color:#fff;
+    margin-top: 20px;
+  }
+  
+  .top-content__summary{
+    font-size: 20px;
+    margin:35px 50px ;
+  }
+  
+  .work-thumbnail{
+    text-align:center;
+  }
+  
+  .work-content__icons{
+    font-size:0;
+    transition: .3s;
+    opacity: .7;
+  }
+  
+  .work-content__icons:nth-child(3n+4){
+    margin-top:80px;
+  }
+  
+  /*文字を囲むタグ*/
+  .work-summary{
+    margin-top:80px;
+    text-align: center;
+  }
+  
+  .work-summary__text{
+    margin:0 auto 40px;
+    width: 100%;
+  }
+
+  .skills-items{
+    margin-top:88px;
+  }
+  
+  .skills-items:first-child{
+    margin-top:0;
+  }
+  
+  .sns_inner{
+    text-align: center;
+    padding:50px 10px;
+  }
+  
+  .sns-content_icons{
+    color: #74cfae;
+    width: 100%;
+    padding:10px;
+    transition: .3s;
+  }
+  
+  .sns-content_icons:hover{
+    width: 100%;
+    background-color:#fff;
+  }
+}
